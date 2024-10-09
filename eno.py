@@ -11,7 +11,7 @@ def _get_strategy_file() -> pathlib.Path:
     Raises:
         FileNotFoundError: If the expected path is not a file.
     """
-    path = pathlib.Path(__file__).parent / 'eno.txt'
+    path = pathlib.Path(__file__).resolve().parent / 'eno.txt'
     if not path.is_file():
         raise FileNotFoundError(path)
     return path
