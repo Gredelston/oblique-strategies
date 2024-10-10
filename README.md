@@ -1,4 +1,4 @@
-# Brian Eno & Peter Schmidt's Oblique Strategies
+# Oblique Strategies
 
 Since 1975, Brian Eno and Peter Schmidt have produced a deck of cards dubbed
 "Oblique Strategies". Each card offers an unconventional way of approaching a
