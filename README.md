@@ -39,6 +39,8 @@ I recommend setting up a link to the `eno.py` executable somewhere on your
 2.  Create a symlink from somewhere on your `PATH` (e.g. `~/.local/bin` or
 `/usr/bin`). I named mine `eno`.
 
+WARNING: Make sure it's a symbolic link (`ln -s`), not a hard link!
+
 ```bash
 % cd /usr/bin
 % ln -s path/to/some/dir/oblique-strategies/eno.txt eno
