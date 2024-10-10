@@ -39,14 +39,15 @@ I recommend setting up a link to the `eno.py` executable somewhere on your
 2.  Create a symlink from somewhere on your `PATH` (e.g. `~/.local/bin` or
 `/usr/bin`). I named mine `eno`.
 
-WARNING: Make sure it's a symbolic link (`ln -s`), not a hard link!
+    WARNING: Make sure it's a symbolic link (`ln -s`), not a hard link!
 
 ```bash
 % cd /usr/bin
 % ln -s path/to/some/dir/oblique-strategies/eno.txt eno
 ```
 
-3.  Make sure you can run the command from an arbitrary working directory.
+3.  If all went well, you should now be able to run `eno` from an arbitrary
+    working directory. Give it a whirl.
 
 ```bash
 % cd ~
